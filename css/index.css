@@ -18,10 +18,150 @@
     width: 68px;
 }
 
+
 .heroImage{
     height: 600px;
+    background: linear-gradient (rgba (0,0,0,0.5));
     background-image: url("../images/girl-coneflower_orig.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.heroImageText{
+        background-image: linear-gradient( to bottom, rgba(0,0,0,0),  rgba(0,0,0,.54), rgba(0,0,0,1));
+}
+.heroImageTitle{
+    color: white;
+    font-size: 48px;
+    margin-left: 50px;
+    
+}
+.normalButton{
+    margin-left: 50px;
+    margin-bottom: 70px;
+    background-color: #98AD39;
+    text-align: center;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 35px;
+    font-weight: 700;
+}
+h1{
+    font-family: 'Lilita One', cursive;
+    font-size: 48px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.subtitle{
+    font-size: 24px;
+}
+.Content1{
+    margin: 150px 70px;
+}
+.Content1Text{
+    margin: 20px;
+}
+.participatingSchools{
+    margin: auto;
+    position: center;
+}
+.participatingSchoolHead{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 56px;
+    width: 972px;
+    background-color: white;
+}
+.participatingSchoolCategory{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 55px;
+    width: 972px;
+    background-color: #98AD39;
+    color: white;
+}
+
+.quotesSection{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    background-color: #D8E1DE;
+}
+.quotes{
+    margin: 150px 70px;
+    display: flex;
+    flex-direction: column;
+    height: 459px;
+    width: 360px;
+    background-color: #355E3B;
+    border-radius: 35px;
+    text-justify: auto;
+    color: white;
+    padding: 30px;
+}
+p, .quoteBy{
+    text-align: right;
+    padding: 30px;
+    font-style: italic;
+}
+p, .quoteText{
+    text-align: left;
+    padding: 30px;
+    font-style: normal;
+}
+
+.Content2{
+    margin: 150px 70px;
+    position: relative;
+}
+ ul{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+ }
+ .specialButton{
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    margin-top: 150px;
+    background-color: #B26466;
+    color: white;
+    text-align: center;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 35px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D8E1DE;
+}
+.footerNavBar{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contactUs{
+    margin: auto;
 }
