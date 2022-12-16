@@ -1,0 +1,27 @@
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+.navBar{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navBarCategory{
+    padding: 10px;
+}
+#logo{
+    height: 68px;
+    width: 68px;
+}
+
+.heroImage{
+    height: 600px;
+    background-image: url("../images/girl-coneflower_orig.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
