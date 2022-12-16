@@ -21,7 +21,6 @@
 
 .heroImage{
     height: 600px;
-    background: linear-gradient (rgba (0,0,0,0.5));
     background-image: url("../images/girl-coneflower_orig.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +30,7 @@
     justify-content: end;
 }
 .heroImageText{
-        background-image: linear-gradient( to bottom, rgba(0,0,0,0),  rgba(0,0,0,.54), rgba(0,0,0,1));
+        background-image: linear-gradient( to bottom, rgba(0,0,0,0) 0%,  rgba(0,0,0,.54) 20%, rgba(0,0,0,.84) 100%);
 }
 .heroImageTitle{
     color: white;
@@ -104,18 +103,20 @@ p{
     margin: 150px 70px;
     display: flex;
     flex-direction: column;
-    height: 459px;
     width: 360px;
     background-color: #355E3B;
     border-radius: 35px;
     text-justify: auto;
     color: white;
-    padding: 30px;
+    padding: 50px;
 }
-p, .quoteBy{
+h4, .quoteBy{
     text-align: right;
     padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     font-style: italic;
+    font-weight: 300;
 }
 p, .quoteText{
     text-align: left;
@@ -133,9 +134,8 @@ p, .quoteText{
  }
  .specialButton{
     position: absolute;
-    bottom: 0;
+    bottom: -10%;
     left: 30%;
-    margin-top: 150px;
     background-color: #B26466;
     color: white;
     text-align: center;
@@ -148,6 +148,7 @@ p, .quoteText{
 }
 
 footer{
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,6 +156,7 @@ footer{
     background-color: #D8E1DE;
 }
 .footerNavBar{
+    margin: 30px;
     display: flex;
     justify-content: space-around;
     gap: 100px;
@@ -163,5 +165,20 @@ footer{
     font-weight: 500;
 }
 .contactUs{
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Donate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.aboutUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
